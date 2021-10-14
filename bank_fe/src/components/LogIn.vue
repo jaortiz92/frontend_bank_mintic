@@ -28,7 +28,7 @@ export default {
   methods: {
     processLogInUser: function () {
       axios
-        .post("https://mision-tic-bank-be.herokuapp.com/login/", this.user, {
+        .post("https://bank-backend-mintic.herokuapp.com/login/", this.user, {
           headers: {},
         })
         .then((result) => {
