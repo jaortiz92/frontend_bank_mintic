@@ -43,7 +43,7 @@ export default {
         .get(`https://bank-backend-mintic.herokuapp.com/user/${userId}/`, {
           headers: { Authorization: `Bearer ${token}` },
         })
-        
+
         .then((result) => {
           this.name = result.data.name;
           this.email = result.data.email;
