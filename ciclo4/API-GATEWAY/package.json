@@ -2,6 +2,7 @@
     "name": "apigateway",
     "version": "1.0.0",
     "description": "api gateway",
+    "main": "src/index",
     "scripts": {},
     "author": "unal",
     "license": "ISC",
